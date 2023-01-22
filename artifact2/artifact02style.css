@@ -46,6 +46,10 @@ body {
  background-color:lightyellow;
  text-align:center; 
  z-index:1;
+ font-family: 'JelleeBold';
+   font-weight: normal; 
+ font-style: normal; 
+ font-size:36px;
 }
 
 #footer {
@@ -61,7 +65,3 @@ img {
  margin-top:10px;
  }
 
-font-family: 'JustLettersMedium'; 
- font-weight: normal; 
- font-style: normal; 
- font-size:36px;
