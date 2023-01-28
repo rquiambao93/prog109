@@ -3,10 +3,8 @@ height: 10em;
 margin-bottom: 1em;
 background-color: #ffebe6;}
 
-#body {				
-width: 90%;
-margin: 0 auto;
-background-image: url(v935-aum-16.jpg);
+body {				
+background-image:url(v935-aum-16.jpg);
 }
 			
 #content {
