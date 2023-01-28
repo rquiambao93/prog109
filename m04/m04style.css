@@ -3,17 +3,11 @@
   margin-bottom: 1em;
   background-color: #ffebe6;}
 
-body, html {				
-  height: 100%;
-  margin: 0;
-}
-
-#bg {
-  background-image: url("https://github.com/rquiambao93/prog109/blob/6c56fa445580375f49db2f705cdccd4b84f14665/m04/v935-aum-16.jpg")
-  height: 100%;
-  background-position: center;
+body {				
+  background-image: url("..v935-aum-16.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: right top;
+  background-attachment: scroll;
 }
 
 #content {
