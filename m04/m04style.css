@@ -1,9 +1,9 @@
 #feature, .article {
 height: 10em;
 margin-bottom: 1em;
-background-color: #ffebe6;
 background-image: url("https://www.clipartmax.com/png/small/245-2452696_strawberry-drawing-animation-strawberry-drawing-transparent-background.png")
-background-size:cover;
+background-size: cover;
+background-color: #ffebe6;
 }
 
 body {				
