@@ -1,12 +1,11 @@
 #feature, .article {
 height: 10em;
 margin-bottom: 1em;
-background-image: url("..clipart2452696.png")
 background-color: #ffebe6;
 }
 
 body {				
-background-image: url("..v935-aum-16.jpg");
+background-image: url("v935-aum-16.jpg");
 background-size: cover;
 background-position: 0% 25%;
 background-attachment: fixed;
