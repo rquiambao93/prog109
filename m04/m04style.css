@@ -5,9 +5,9 @@
 
 body {				
   background-image: url("m04/v935-aum-16.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: scroll;
+  background-size: cover 
+  background-position: 0% 25%;
+  background-attachment: fixed;
 }
 
 #content {
