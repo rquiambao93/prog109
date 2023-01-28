@@ -1,0 +1,52 @@
+#feature, .article {
+height: 10em;
+margin-bottom: 1em;
+background-color: #ffebe6;}
+
+body {				
+width: 90%;
+margin: 0 auto;
+background-image:url ("https://img.freepik.com/free-vector/background-seamless-pattern-vector-with-cute-memphis_53876-105506.jpg?w=900&t=st=1674876727~exp=1674877327~hmac=262f8827a6d580ffcb5a82a1cce88e794be3dcca8e345d929651f6bf7581e4e3");
+background-color: #e6fffa}
+			
+#content {				overflow: auto;}
+
+#nav, #footer {
+background-color: #ccf5ff;
+margin: 1%;
+text-align: center;
+font-family: 'UnGraphicRegular';
+font-weight: normal;
+font-style: normal;
+}
+
+.column1, .column2, .column3 {
+width: 31.3%;
+float: left;
+margin: 1%;}
+
+.column1 {
+margin-right: 0%;
+background-color: #ffffcc;}
+
+.column2 {
+margin-right: 0%;
+background-color: #ccffcc;}
+
+.column3 {
+margin-right: 0%;
+background-color: #ffe6f2;}			
+
+li {
+display: inline;
+padding: 0.5em;}			
+
+#header  {
+font-family: 'CapitalisMedium';
+font-weight: normal;
+font-style: normal;
+text-align: center}
+
+
+
+
