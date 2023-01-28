@@ -1,8 +1,7 @@
-#feature {
+#feature, .article {
 height: 10em;
 margin-bottom: 1em;
-background-color: #ffebe6;
-}
+background-color: #ffebe6;}
 
 body {				
 background-image: url("https://github.com/rquiambao93/prog109/blob/01ec4902069215c5faefe6986bbf48485555ab3a/m04/v935-aum-16.jpg");
@@ -44,7 +43,7 @@ li {
 display: inline;
 padding: 0.5em;}			
 
-#header  {
+#header {
 font-family: 'CapitalisMedium';
 font-weight: normal;
 font-style: normal;
