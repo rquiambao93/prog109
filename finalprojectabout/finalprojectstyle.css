@@ -1,0 +1,57 @@
+#feature, .article {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #ffebe6;
+ background-image: url("..m04/clipart2452696.png");
+ background-size:contain;
+ background-position: right;
+ background-repeat:no-repeat;}
+
+body {				
+  background-image: url("..m04/v935-aum-16.jpg");
+  background-size: cover;
+  background-position: 0% 25%;
+  background-attachment: fixed;
+}
+
+#content {
+overflow: auto;}
+
+#nav, #footer {
+background-color: #ccf5ff;
+margin: 1%;
+text-align: center;
+font-family: 'UnGraphicRegular';
+font-weight: normal;
+font-style: normal;
+}
+
+.column1, .column2, .column3 {
+width: 31.3%;
+float: left;
+margin: 1%;}
+
+.column1 {
+margin-right: 0%;
+background-color: #ffffcc;}
+
+.column2 {
+margin-right: 0%;
+background-color: #ccffcc;}
+
+.column3 {
+margin-right: 0%;
+background-color: #ffe6f2;}			
+
+li {
+display: inline;
+padding: 0.5em;}			
+
+#header {
+font-family: 'CapitalisMedium';
+font-weight: normal;
+font-style: normal;
+text-align: center}
+
+
+
