@@ -104,7 +104,7 @@ function validateForm(e) {
 			!phone.match(/^(\d+)\-?(\d*)\-?(\d*)$/)
 		) {
 			errorMessages =
-				"<p>Phone number should only contains number and must not be longer than 15 digits";
+				"<p>Phone number should only contains number and must not be more than 15 digits";
 		} else {
 			validPhone = true;
 		}
@@ -153,7 +153,7 @@ function validateForm(e) {
 			!password.match(/[*.!@#$%^&(){}[\]:;<>,.?\/~_+-=|]/) //required special char
 		) {
 			errorMessages =
-				"<p>Password is required, may not be longer than 7 characters, and must contain atleast one uppercase letter, number, and special character.";
+				"<p>Password is required and may not be longer than 7 characters. Must contain at least one uppercase letter, number, and special character (*.!@#$%^&(){}[\]:;<>,.?\/~_+-=|).";
 		} else {
 			validUsername = true;
 		}
@@ -286,15 +286,5 @@ function validateForm(e) {
 	}
 }
 
-/**
- * Format Phone number field
- */
-const phoneInput = document.querySelector("#Phone");
-phoneInput.addEventListener("keyup", function (e) {
-	const fmt = phoneInput.value
-		// .match(/\d+/g)
-		// .join("")
-		.replace(/(\d{3})\-?(\d{3})\-?(\d{4})/, "$1-$2-$3");
-	console.log(fmt);
-	phoneInput.value = fmt;
+
 });
