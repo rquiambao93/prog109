@@ -1,20 +1,18 @@
-function addItem() {
-  if (items === "") {
-    return;
-  }
-var items = document.getElementById('items').value;
+function AddItem() {
 
-// Create a new element and store it in a variable.
-var newEl = document.createElement('li');
+    if (grocery === "") {
+        return;
+    }
 
-// Create a text node and store it in a variable.
-var newItem = document.createTextNode('items');
+    var grocery = document.getElementById("grocery").value
 
-// Attach the new text node to the new element.
-newEl.appendChild(newText);
+    var newEl = document.createElement("li");
+    var newItem = document.createTextNode(grocery);
+    newEl.appendChild(newItem);
 
-// Find the position where the new element should be added.
-var position = document.getElementsByTagName('ul')[0];
-
-// Insert the new element into its position.
-position.appendChild(newEl);}
+    var list = document.getElementById("todo");
+    var count = list.childNodes.length;
+    newEl.setAttribute("id", count + 1);
+    
+    list.appendChild(newEl);
+}
