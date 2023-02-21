@@ -1,11 +1,14 @@
-function addItem(){
-var newItem = document.getElementById('items').value;
+function addItem() {
+  if (items === "") {
+    return;
+  }
+var items = document.getElementById('items').value;
 
 // Create a new element and store it in a variable.
 var newEl = document.createElement('li');
 
 // Create a text node and store it in a variable.
-var newText = document.createTextNode('quinoa');
+var newItem = document.createTextNode('quinoa');
 
 // Attach the new text node to the new element.
 newEl.appendChild(newText);
