@@ -283,6 +283,7 @@ function validateForm(e) {
 		//5) return the status of each field
 		return validZipcode;
 	}
+}
+
+
 });
-
-
