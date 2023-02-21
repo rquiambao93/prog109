@@ -150,10 +150,9 @@ function validateForm(e) {
 			password.length > 7 ||
 			!password.match(/[A-Z]/) || 
 			!password.match(/[0-9]/) || 
-			!password.match(/[~!@#$%&*]/) 
 		) {
 			errorMessages =
-				"<p>Password is required, may not be longer than 7 characters, and must contain at least one uppercase letter, number, and special character.";
+				"<p>Password is required, may not be longer than 7 characters, and must contain at least one uppercase letter and one number";
 		} else {
 			validUsername = true;
 		}
@@ -287,7 +286,7 @@ function validateForm(e) {
 }
 
 /**
- * Format Phone number field
+ * Format Phone number
  */
 const phoneInput = document.querySelector("#Phone");
 phoneInput.addEventListener("keyup", function (e) {
