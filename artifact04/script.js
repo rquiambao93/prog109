@@ -285,15 +285,4 @@ function validateForm(e) {
 	}
 }
 
-/**
- * Format Phone number
- */
-const phoneInput = document.querySelector("#Phone");
-phoneInput.addEventListener("keyup", function (e) {
-	const fmt = phoneInput.value
-		// .match(/\d+/g)
-		// .join("")
-		.replace(/(\d{3})\-?(\d{3})\-?(\d{4})/, "$1-$2-$3");
-	console.log(fmt);
-	phoneInput.value = fmt;
-});
+
