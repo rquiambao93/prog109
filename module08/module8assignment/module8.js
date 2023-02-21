@@ -8,7 +8,7 @@ var items = document.getElementById('items').value;
 var newEl = document.createElement('li');
 
 // Create a text node and store it in a variable.
-var newItem = document.createTextNode('quinoa');
+var newItem = document.createTextNode('items');
 
 // Attach the new text node to the new element.
 newEl.appendChild(newText);
