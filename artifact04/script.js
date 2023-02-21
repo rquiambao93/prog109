@@ -148,12 +148,12 @@ function validateForm(e) {
 		var errorMessages = "";
 		if (
 			password.length > 7 ||
-			!password.match(/[A-Z]/) || //require cap
-			!password.match(/[0-9]/) || //require num
-			!password.match(/[*.!@#$%^&(){}[\]:;<>,.?\/~_+-=|]/) //required special char
+			!password.match(/[A-Z]/) || 
+			!password.match(/[0-9]/) || 
+			!password.match(/[~!@#$%&*]/) 
 		) {
 			errorMessages =
-				"<p>Password is required, may not be longer than 7 characters, and must contain atleast one uppercase letter, number, and special character.";
+				"<p>Password is required, may not be longer than 7 characters, and must contain at least one uppercase letter, number, and special character.";
 		} else {
 			validUsername = true;
 		}
