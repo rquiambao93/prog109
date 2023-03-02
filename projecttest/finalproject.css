@@ -20,6 +20,7 @@
   }  
   .jumbotron {
     background-color: #f4511e;
+    background-image: url(./peakpx.jpg)
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
