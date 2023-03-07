@@ -1,3 +1,10 @@
+.gif{
+width: 600px;
+height: 450px;
+padding-bottom: 73%;
+position: relative;
+}
+
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
