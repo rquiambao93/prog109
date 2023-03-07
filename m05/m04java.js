@@ -1,14 +1,31 @@
-// program to generate a multiplication table
+/**
+ * program to generate Multiplication Table
+ * 
+ */
+window.onload = function () {
+	var table = prompt("Enter a number between zero and ten!"); // ask user for a number
+	while (!verify(table)) {
+		table = prompt(
+			"Sorry! That didn't work. Please enter a number between zero and ten"
+		);
+	}
 
-// take input from the user
-const number = parseInt(prompt('Enter an integer: '));
+	var output = "<h2>Multiplication Table</h2>"; // display in #blackboard
 
-//creating a multiplication table
-for(let i = 1; i <= 10; i++) {
+	// run this loop ten times (from 1 to 10)
+	for (var i = 1; i <= 10; i++) {
+		//add a new line to the output
+		output += i + " × " + table + " = " + i * table + "<br />";
+	}
 
-    // multiply i with number
-    const result = i * number;
+	// Write the message into the page
+	var el = document.getElementById("blackboard");
+	el.innerHTML = output;
 
-    // display the result
-    console.log(`${number} * ${i} = ${result}`);
-}
+	function verify(num) {
+		if (num >= 0 && num <= 10) {
+			return true;
+		}
+		return false;
+	}
+};
