@@ -19,7 +19,7 @@ body {
   }  
   .jumbotron {
     background-image: url('./peakpx.jpg');
-    opacity: 0.3;
+    opacity: 0.7;
     color: #fff;
     padding: 100px 25px;
     font-family: Helvetica, sans-serif;
